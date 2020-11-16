@@ -43,13 +43,13 @@ $ git config --global user.email "john@doe.org"
 
 To activate, add the following to `.zshrc`:
 ```
-$ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/. zshrc
+$ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
 
-$ echo export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES >> ~/. zshrc
+$ echo export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES >> ~/.zshrc
 ```
 
 ## Python PIP packages
-All off my pip packages are in this [`requirements.txt`](https://github.com/mzeier/dotfiles/blob/master/requirements.txt).
+All of my pip packages are in this [`requirements.txt`](https://github.com/mzeier/dotfiles/blob/master/requirements.txt).
 
 The following will install these packages:
 ```
